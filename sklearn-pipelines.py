@@ -23,7 +23,7 @@ pipeline = make_pipeline(TfidfVectorizer(),
                          LogisticRegression())
 
 grid = GridSearchCV(pipeline,
-                    param_grid={'logisticregression__C': [.1, 1, 10, 100]}, cv=5)
+                    param_grid={'logisticregression__C': [1000,500, 750]}, cv=5)
 
 grid.fit(text_train, y_train)
 print("Score",grid.score(text_test, y_test))
