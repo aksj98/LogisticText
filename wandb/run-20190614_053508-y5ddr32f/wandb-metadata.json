@@ -1,0 +1,20 @@
+{
+    "root": "/home/jovyan/LogisticText",
+    "git": {
+        "remote": "https://github.com/aksj98/LogisticText.git",
+        "commit": "cd8bfac0589dc3daf070e7abc4a5770b7ee401ab"
+    },
+    "email": "akshaj.jain@gmail.com",
+    "startedAt": "2019-06-14T05:35:08.675860",
+    "host": "jupyter-aksj98",
+    "username": "jovyan",
+    "os": "Linux-4.14.119+-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "cpu_count": 2,
+    "program": "/opt/conda/lib/python3.7/site-packages/wandb/internal_cli.py",
+    "args": [
+        "{\"command\": \"headless\", \"pid\": 163, \"stdout_master_fd\": 6, \"stderr_master_fd\": 8, \"cloud\": true, \"port\": 55869}"
+    ],
+    "state": "running",
+    "heartbeatAt": "2019-06-14T05:35:09.304064"
+}
